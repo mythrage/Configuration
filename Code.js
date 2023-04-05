@@ -1,7 +1,3 @@
-function onOpen() {
-  readRows();
-};
-
 function readRows() {
   var sheet = SpreadsheetApp.getActiveSheet();
   var rows = sheet.getDataRange();
